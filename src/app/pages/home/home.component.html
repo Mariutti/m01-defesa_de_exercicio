@@ -1,0 +1,26 @@
+<div class="text-center container">
+  <h3 class="h3 mb-3">
+    {{ factText }}
+  </h3>
+  <div
+    class="img-container container mb-3 d-flex justify-content-center align-items-center"
+  >
+    <img
+      [src]="img"
+      alt="Imagem para testes"
+      style="width: 300px; height: 300px"
+    />
+  </div>
+  <div class="container buttons-container d-flex mb-3">
+    <div class="container p-3">
+      <button type="button" class="btn btn-primary" (click)="clickCat()">
+        CAT
+      </button>
+    </div>
+    <div class="container p-3">
+      <button type="button" class="btn btn-primary" (click)="clickDog()">
+        DOG
+      </button>
+    </div>
+  </div>
+</div>
