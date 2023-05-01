@@ -1,5 +1,7 @@
 # CatTrivia
 
+Este projeto faz parte da lista de exercícios do Curso de Formação FullStack do Lab360, na turma FullStack[Itacorubi]
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ## Development server
